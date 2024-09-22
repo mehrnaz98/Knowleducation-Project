@@ -1,7 +1,7 @@
 <template>
-  <ProjectLogo />
+  <ProjectHeader />
 </template>
 
 <script setup lang="ts">
-import ProjectLogo from "./components/ProjectLogo.vue";
+import ProjectHeader from "./components/ProjectHeader.vue";
 </script>

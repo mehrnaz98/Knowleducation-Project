@@ -2,7 +2,7 @@
   <section class="bg-gray-200 text-gray-600 flex justify-center">
     <section class="py-7 mx-32">
       <h1 class="text-7xl font-bold">Learn EDGE Cases</h1>
-      <p>
+      <p class="text-lg mt-10 leading-10">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, officiis
         doloribus excepturi dolore officia aliquid error ipsum eos ea quam
         molestias quisquam natus, corrupti iusto suscipit tempore a. Mollitia

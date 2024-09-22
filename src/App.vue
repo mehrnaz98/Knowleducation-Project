@@ -1,7 +1,7 @@
 <template>
-  <ProjectHeader />
+  <AppHeader />
 </template>
 
 <script setup lang="ts">
-import ProjectHeader from "./components/ProjectHeader.vue";
+import AppHeader from "./components/AppHeader.vue";
 </script>

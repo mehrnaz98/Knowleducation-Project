@@ -1,7 +1,7 @@
 <template>
   <header class="bg-gray-200 p-5">
     <div
-      class="bg-white shadow-sm w-3/5 flex items-center border rounded-full mx-20 py-2"
+      class="bg-white shadow-sm w-3/5 flex items-center border rounded-full mx-20 py-5"
     >
       <section class="w-1/4">
         <AppLogo />

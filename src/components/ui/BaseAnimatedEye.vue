@@ -63,4 +63,12 @@ const animatePupil = () => {
     animationFrameId = null;
   }
 };
+
+const resetPupil = () => {
+  // Start animating towards the last target position when the mouse leaves
+  if (animationFrameId) {
+    cancelAnimationFrame(animationFrameId);
+  }
+  animatePupil();
+};
 </script>

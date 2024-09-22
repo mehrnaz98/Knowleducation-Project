@@ -1,13 +1,17 @@
 <template>
   <header class="bg-gray-200 p-5">
-    <div class="bg-white flex items-center border rounded-full py-2">
+    <div
+      class="bg-white shadow-sm w-3/5 flex items-center border rounded-full mx-20 py-2"
+    >
       <section class="w-1/4">
         <AppLogo />
       </section>
 
-      <section class="w-3/4">
+      <section class="w-3/4 text-base">
         <nav>
-          <ul class="flex space-x-7 justify-end items-center px-10">
+          <ul
+            class="flex space-x-9 justify-end items-center px-4 text-gray-400"
+          >
             <li><a href="#">Courses</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Lorem</a></li>

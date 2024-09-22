@@ -1,8 +1,6 @@
 <template>
-  <header class="bg-gray-100 p-5">
-    <div
-      class="bg-white flex items-center border-4 border-gray-600 rounded-full w-"
-    >
+  <header class="bg-gray-200 p-5">
+    <div class="bg-white flex items-center border rounded-full py-2">
       <section class="w-1/4">
         <AppLogo />
       </section>

@@ -44,4 +44,23 @@ const movePupil = (event: MouseEvent) => {
   pupilX.value = targetX;
   pupilY.value = targetY;
 };
+
+const animatePupil = () => {
+  const distanceX = targetX - pupilX.value;
+  const distanceY = targetY - pupilY.value;
+
+  // Move the pupil towards the target position
+  pupilX.value += distanceX * 0.1;
+  pupilY.value += distanceY * 0.1;
+
+  // Continue animation until the pupil is close to the target
+  if (Math.abs(distanceX) > 0.1 || Math.abs(distanceY) > 0.1) {
+    animationFrameId = requestAnimationFrame(animatePupil);
+  } else {
+    pupilX.value = targetX; // Snap to target if close enough
+    pupilY.value = targetY;
+    cancelAnimationFrame(animationFrameId!);
+    animationFrameId = null;
+  }
+};
 </script>

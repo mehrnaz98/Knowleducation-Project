@@ -27,6 +27,13 @@
       </p>
     </section>
 
-    <section class="w-2/5">👁</section>
+    <section class="w-2/5">
+      <BaseAnimatedEye />
+    </section>
   </section>
 </template>
+
+<script setup lang="ts">
+import BaseAnimatedEye from "./ui/BaseAnimatedEye.vue";
+</script>
+r

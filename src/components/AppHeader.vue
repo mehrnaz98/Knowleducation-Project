@@ -1,7 +1,7 @@
 <template>
   <AppLogo />
   <nav>
-    <ul class="">
+    <ul class="flex space-x-4">
       <li><a href="#">Courses</a></li>
       <li><a href="#">Contact Us</a></li>
       <li><a href="#">Lorem</a></li>

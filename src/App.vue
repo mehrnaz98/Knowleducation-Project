@@ -1,3 +1,7 @@
-<script setup lang="ts"></script>
+<template>
+  <ProjectLogo />
+</template>
 
-<template></template>
+<script setup lang="ts">
+import ProjectLogo from "./components/ProjectLogo.vue";
+</script>

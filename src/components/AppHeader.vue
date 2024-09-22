@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-200 p-5">
+  <header class="bg-gray-200 p-5 pt-16 border-t-8 border-green-500">
     <div
       class="bg-white shadow-sm w-[50%] flex items-center border rounded-full mx-20 py-4"
     >

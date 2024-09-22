@@ -1,7 +1,7 @@
 <template>
-  <section class="flex justify-center">
-    <section class="">
-      <h1 class="text-7xl">Learn EDGE Cases</h1>
+  <section class="bg-gray-200 text-gray-600 flex justify-center">
+    <section class="py-7 mx-32">
+      <h1 class="text-7xl font-bold">Learn EDGE Cases</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, officiis
         doloribus excepturi dolore officia aliquid error ipsum eos ea quam

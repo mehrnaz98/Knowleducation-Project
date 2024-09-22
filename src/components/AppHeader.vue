@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="flex justify-between items-center p-4">
     <AppLogo />
     <nav>
       <ul class="flex space-x-4">

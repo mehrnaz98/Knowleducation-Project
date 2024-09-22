@@ -1,5 +1,5 @@
 <template>
   <section class="">
-    <h2 class="">Learn EDGE Cases</h2>
+    <h1 class="">Learn EDGE Cases</h1>
   </section>
 </template>

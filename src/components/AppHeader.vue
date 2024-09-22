@@ -15,7 +15,9 @@
             <li><a href="#">Courses</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Lorem</a></li>
-            <button class="bg-green-500 text-white rounded-full px-9 py-2">
+            <button
+              class="bg-green-500 text-white rounded-full text-lg font-normal px-11 py-2"
+            >
               Contact Us
             </button>
           </ul>

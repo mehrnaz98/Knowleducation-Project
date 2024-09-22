@@ -1,5 +1,5 @@
 <template>
-  <div>the eye</div>
+  <div>👁</div>
   <div>Knowleducation</div>
 </template>
 

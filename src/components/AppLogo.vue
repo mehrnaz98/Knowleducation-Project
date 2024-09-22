@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-end space-x-2">
+  <section class="flex justify-start px-5 space-x-2 text-xl">
     <div>👁</div>
     <div class="font-bold">Knowleducation</div>
   </section>

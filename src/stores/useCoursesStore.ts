@@ -16,7 +16,7 @@ export const useCoursesStore = defineStore("courses", () => {
     } finally {
       isLoading.value = false;
     }
-
-    fetchImages();
   };
+
+  fetchImages();
 });

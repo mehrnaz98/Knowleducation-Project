@@ -18,8 +18,13 @@
       }"
     >
       <div
-        class="absolute w-4 h-4 bg-white rounded-full top-4 left-9"
-        :style="{ width: reflectionSize + 'px', height: reflectionSize + 'px' }"
+        class="absolute w-4 h-4 bg-white rounded-full"
+        :style="{
+          width: reflectionSize + 'px',
+          height: reflectionSize + 'px',
+          top: '20%',
+          left: '50%',
+        }"
       ></div>
     </div>
   </div>

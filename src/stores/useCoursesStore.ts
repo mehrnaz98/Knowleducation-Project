@@ -12,6 +12,7 @@ export const useCoursesStore = defineStore("courses", () => {
       const data = await response.json();
 
       images.value = data.images || [];
+      descriptions.value = data.descriptions || [];
     } catch (error) {
       console.error("Error fetching images:", error);
     } finally {

@@ -16,7 +16,7 @@
 import BaseAnimatedEye from "./ui/BaseAnimatedEye.vue";
 import { ref } from "vue";
 
-const eyeRef = ref(null);
+const eyeRef = ref<InstanceType<typeof BaseAnimatedEye> | null>(null);
 
 const handleMouseMove = (event: MouseEvent) => {
   if (eyeRef.value) {

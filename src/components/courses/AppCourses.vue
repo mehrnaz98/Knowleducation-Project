@@ -6,7 +6,11 @@
     </section>
 
     <section>
-      <CoursesCard />
+      <CoursesCard
+        v-for="(image, index) in defaultAndFetchedImages"
+        :key="index"
+        :image="image"
+      />
     </section>
   </section>
 </template>

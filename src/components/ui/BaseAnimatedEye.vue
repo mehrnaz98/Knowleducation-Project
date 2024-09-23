@@ -26,7 +26,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
 
 const pupilX = ref<number>(0);
 const pupilY = ref<number>(0);

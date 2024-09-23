@@ -3,4 +3,5 @@ import { defineStore } from "pinia";
 
 export const useCoursesStore = defineStore("courses", () => {
   const images = ref<string[]>([]);
+  const isLoading = ref(true);
 });

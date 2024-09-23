@@ -5,6 +5,12 @@
       <div class="ml-10 mt-6 w-[60rem] h-1 bg-gray-200"></div>
     </section>
 
-    <section></section>
+    <section>
+      <CoursesCard />
+    </section>
   </section>
 </template>
+
+<script setup lang="ts">
+import CoursesCard from "./CoursesCard.vue";
+</script>

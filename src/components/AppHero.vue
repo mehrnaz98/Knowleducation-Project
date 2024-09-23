@@ -17,18 +17,12 @@
         doloribus excepturi dolore officia aliquid error ipsum eos ea quam
         molestias quisquam natus, corrupti iusto suscipit tempore a. Mollitia
         recusandae doloremque ut, fugit magni pariatur ipsum? Saepe, illo eaque
-        dignissimos soluta molestias sapiente nemo? Harum voluptates aspernatur
-        consequatur beatae perspiciatis, eos incidunt odio, et quae aliquid quis
-        officia dignissimos aut voluptatem molestias recusandae eveniet iure
-        voluptate porro modi vitae dolores laborum, enim quas! Esse,
-        necessitatibus vitae? Laudantium, quis? Dignissimos eius repellendus,
-        ipsa iure vitae assumenda, quisquam, praesentium earum facilis obcaecati
-        odit?
+        dignissimos soluta molestias sapiente nemo?
       </p>
     </section>
 
     <section class="w-2/5">
-      <BaseAnimatedEye />
+      <BaseAnimatedEye :size="340" />
     </section>
   </section>
 </template>

@@ -39,7 +39,7 @@ const props = defineProps<{
 
 const pupilSize = props.size / 4;
 const reflectionSize = pupilSize / 4;
-const borderThickness = pupilSize;
+const borderThickness = pupilSize / 1.3;
 
 const pupilX = ref<number>(0);
 const pupilY = ref<number>(0);

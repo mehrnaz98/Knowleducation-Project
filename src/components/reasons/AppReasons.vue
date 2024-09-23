@@ -1,6 +1,6 @@
 <template>
   <section class="flex">
-    <section class="w-2/5">
+    <section class="w-2/5 flex mt-24">
       <ReasonsCard
         title="first reason"
         description="description"

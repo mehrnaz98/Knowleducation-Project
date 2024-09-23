@@ -17,7 +17,10 @@
         transform: `translate(${pupilX}px, ${pupilY}px)`,
       }"
     >
-      <div class="absolute w-4 h-4 bg-white rounded-full top-4 left-9"></div>
+      <div
+        class="absolute w-4 h-4 bg-white rounded-full top-4 left-9"
+        :style="{ width: reflectionSize + 'px', height: reflectionSize + 'px' }"
+      ></div>
     </div>
   </div>
 </template>

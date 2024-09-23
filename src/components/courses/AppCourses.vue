@@ -12,6 +12,6 @@
 </template>
 
 <script setup lang="ts">
-import CoursesCard from "./CoursesCard.vue";
 import { useCoursesStore } from "@/stores/useCoursesStore";
+import CoursesCard from "./CoursesCard.vue";
 </script>

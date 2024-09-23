@@ -12,6 +12,7 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from "vue";
 import { useCoursesStore } from "@/stores/useCoursesStore";
 import CoursesCard from "./CoursesCard.vue";
 

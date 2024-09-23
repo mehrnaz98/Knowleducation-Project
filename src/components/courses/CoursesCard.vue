@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-gray-400 flex flex-col w-[25rem] h-[32rem] rounded-2xl"
+    class="relative bg-gray-100 flex flex-col w-[25rem] h-[32rem] rounded-2xl"
   >
     <div
       v-if="image"

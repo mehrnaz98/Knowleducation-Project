@@ -58,7 +58,10 @@ const movePupil = (event: MouseEvent) => {
   const deltaX = clientX - centerX;
   const deltaY = clientY - centerY;
 
-  const distance = Math.min(33, Math.sqrt(deltaX ** 2 + deltaY ** 2));
+  const distance = Math.min(
+    props.size / 2 - pupilSize / 2 - borderThickness,
+    Math.sqrt(deltaX ** 2 + deltaY ** 2)
+  );
   const angle = Math.atan2(deltaY, deltaX);
 
   // Set the target position for the pupil

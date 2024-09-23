@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-gray-400 flex flex-col w-[25.9rem] h-[33rem] rounded-2xl"
+    class="relative bg-gray-400 flex flex-col w-[25rem] h-[32rem] rounded-2xl"
   >
     <div
       v-if="image"
@@ -14,7 +14,7 @@
     </div>
     <div
       v-else
-      class="absolute bg-white w-[23rem] h-[23rem] top-52 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-2xl flex justify-center items-center"
+      class="absolute bg-white w-[22rem] h-[22rem] top-[12.70rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-2xl flex justify-center items-center"
     >
       <p class="uppercase text-6xl font-bold text-gray-400">image</p>
     </div>

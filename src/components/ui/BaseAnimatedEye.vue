@@ -1,6 +1,11 @@
 <template>
   <div
-    class="relative w-64 h-64 border-[50px] border-green-500 rounded-full flex items-center justify-center cursor-pointer"
+    :style="{
+      width: size + 'px',
+      height: size + 'px',
+      borderWidth: borderThickness + 'px',
+    }"
+    class="relative border-green-500 rounded-full flex items-center justify-center cursor-pointer"
     @mousemove="movePupil"
     @mouseleave="resetPupil"
   >

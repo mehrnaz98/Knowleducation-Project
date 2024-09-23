@@ -19,10 +19,12 @@
       <p class="uppercase text-6xl font-bold text-gray-400">image</p>
     </div>
 
-    <div class="mt-[26rem] mx-6 text-lg text-gray-500 flex justify-start">
+    <div
+      class="mt-[24.5rem] mx-6 text-xl text-gray-400 flex justify-start leading-8"
+    >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quis
-        obcaecati accusamus ad perferendis.
+        obcaecati perferendis.
       </p>
     </div>
   </div>

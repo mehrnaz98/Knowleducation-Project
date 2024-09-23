@@ -1,1 +1,3 @@
-<template></template>
+<template>
+  <div>Cards go here</div>
+</template>

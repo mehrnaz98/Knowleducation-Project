@@ -16,4 +16,9 @@ import { useCoursesStore } from "@/stores/useCoursesStore";
 import CoursesCard from "./CoursesCard.vue";
 
 const courseStore = useCoursesStore();
+
+const defaultAndFetchedImages = computed(() => {
+  const defaultCards = Array(12).fill("");
+  return defaultCards.map((_, index) => courseStore.images[index] || "");
+});
 </script>

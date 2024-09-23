@@ -14,4 +14,6 @@
 <script setup lang="ts">
 import { useCoursesStore } from "@/stores/useCoursesStore";
 import CoursesCard from "./CoursesCard.vue";
+
+const courseStore = useCoursesStore();
 </script>

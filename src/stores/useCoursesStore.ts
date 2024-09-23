@@ -24,6 +24,7 @@ export const useCoursesStore = defineStore("courses", () => {
 
   return {
     images,
+    descriptions,
     isLoading,
   };
 });

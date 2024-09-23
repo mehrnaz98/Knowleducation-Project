@@ -19,18 +19,18 @@ import ReasonsCard from "./ReasonsCard.vue";
 
 const reasons = [
   {
+    title: "Zeroth reason",
+    description: "Lorem Ipsum 0th",
+    image: "src/assets/img/hand-0.png",
+  },
+  {
     title: "First reason",
     description: "Lorem Ipsum 1st",
-    image: "src/assets/img/hand-0.png",
+    image: "src/assets/img/hand-1.png",
   },
   {
     title: "Second reason",
     description: "Lorem Ipsum 2nd",
-    image: "src/assets/img/hand-1.png",
-  },
-  {
-    title: "Third reason",
-    description: "Lorem Ipsum 3rd",
     image: "src/assets/img/hand-2.png",
   },
 ];

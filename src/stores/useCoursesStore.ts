@@ -3,6 +3,7 @@ import { defineStore } from "pinia";
 
 export const useCoursesStore = defineStore("courses", () => {
   const images = ref<string[]>([]);
+  const descriptions = ref<string[]>([]);
   const isLoading = ref(true);
 
   const fetchImages = async () => {

@@ -13,6 +13,8 @@ export const useCoursesStore = defineStore("courses", () => {
       images.value = data.images || [];
     } catch (error) {
       console.error("Error fetching images:", error);
+    } finally {
+      isLoading.value = false;
     }
   };
 });

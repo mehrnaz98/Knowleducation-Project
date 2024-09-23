@@ -18,9 +18,11 @@
     </div>
 
     <div
-      class="absolute transform translate-x-64 -translate-y-8 rotate-45 z-0 opacity-20"
+      class="absolute transform translate-x-60 -translate-y-8 rotate-45 z-0 opacity-20"
     >
-      <p class="text-6xl font-bold text-black">{{ ordinalNumber }}</p>
+      <p class="text-6xl font-bold text-black">
+        {{ ordinalNumber }}
+      </p>
     </div>
   </section>
 </template>

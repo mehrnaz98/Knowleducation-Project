@@ -27,3 +27,12 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+defineProps({
+  image: {
+    type: String,
+    default: "",
+  },
+});
+</script>

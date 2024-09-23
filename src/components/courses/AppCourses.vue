@@ -23,7 +23,15 @@ import CoursesCard from "./CoursesCard.vue";
 const courseStore = useCoursesStore();
 
 const defaultAndFetchedImages = computed(() => {
-  const defaultCards = Array(12).fill("");
-  return defaultCards.map((_, index) => courseStore.images[index] || "");
+  const defaultCards = Array(12).fill({
+    image: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  });
+  return defaultCards.map((_, index) => ({
+    image: courseStore.images[index] || "",
+    description:
+      courseStore.descriptions[index] ||
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  }));
 });
 </script>

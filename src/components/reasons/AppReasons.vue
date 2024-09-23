@@ -1,10 +1,14 @@
 <template>
   <section class="flex">
-    <section class="w-2/5 flex mt-24">
+    <section
+      v-for="reason in reasons"
+      :key="reason.title"
+      class="w-2/5 flex mt-24"
+    >
       <ReasonsCard
-        title="first reason"
-        description="description"
-        image="src/assets/img/hand-0.png"
+        :title="reason.title"
+        :description="reason.description"
+        :image="reason.image"
       />
     </section>
 
@@ -13,12 +17,23 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from "vue";
 import ReasonsCard from "./ReasonsCard.vue";
 
-const props = defineProps<{
-  title: string;
-  description: string;
-  image: string;
-}>();
+const reasons = [
+  {
+    title: "First reason",
+    description: "Lorem Ipsum 1st",
+    image: "src/assets/img/hand-0.png",
+  },
+  {
+    title: "Second reason",
+    description: "Lorem Ipsum 2nd",
+    image: "src/assets/img/hand-1.png",
+  },
+  {
+    title: "Third reason",
+    description: "Lorem Ipsum 3rd",
+    image: "src/assets/img/hand-2.png",
+  },
+];
 </script>

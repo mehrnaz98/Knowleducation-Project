@@ -31,7 +31,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, defineProps } from "vue";
+import { ref, defineProps, defineExpose } from "vue";
 
 const props = defineProps<{
   size: number;
@@ -99,4 +99,9 @@ const resetPupil = () => {
   }
   animatePupil();
 };
+
+defineExpose({
+  movePupil,
+  resetPupil,
+});
 </script>

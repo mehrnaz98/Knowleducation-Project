@@ -6,6 +6,7 @@
           :title="reason.title"
           :description="reason.description"
           :image="reason.image"
+          :ordinalNumber="reason.ordinalNumber"
         />
       </div>
     </section>
@@ -22,16 +23,19 @@ const reasons = [
     title: "Zeroth reason",
     description: "Lorem Ipsum 0th",
     image: "src/assets/img/hand-0.png",
+    ordinalNumber: "0th",
   },
   {
     title: "First reason",
     description: "Lorem Ipsum 1st",
     image: "src/assets/img/hand-1.png",
+    ordinalNumber: "1st",
   },
   {
     title: "Second reason",
     description: "Lorem Ipsum 2nd",
     image: "src/assets/img/hand-2.png",
+    ordinalNumber: "2nd",
   },
 ];
 </script>

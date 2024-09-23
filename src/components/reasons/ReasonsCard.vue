@@ -1,9 +1,9 @@
 <template>
   <section
-    class="bg-white flex items-center ml-36 w-96 border rounded-lg p-4 shadow-md"
+    class="bg-white flex items-center ml-36 w-96 border rounded-lg p-4 shadow-md group"
   >
     <div
-      class="bg-yellow-300 flex justify-center relative border rounded-full w-28 h-28 mx-6 my-5"
+      class="bg-yellow-300 flex justify-center relative border rounded-full w-28 h-28 mx-6 my-5 group-hover:rotate-[-12deg]"
     >
       <img
         :src="image"

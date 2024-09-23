@@ -11,12 +11,28 @@
       </div>
     </section>
 
-    <section class="w-3/5 pr-24">
+    <section class="w-3/5 pr-24 relative">
       <h2 class="text-4xl mt-52 font-bold">
         Choose Knowleducation over
-        <span>All</span>
+        <span class="relative inline-block">
+          <span
+            class="absolute text-green-500 font-bold top-[-80px] left-[-10px] rotate-[-28deg] text-4xl"
+            >ALL
+          </span>
+          <span
+            class="absolute text-green-500 font-bold top-[-14px] left-[-12px] rotate-[28deg] text-4xl"
+          >
+            )
+          </span>
+          <span
+            class="absolute text-green-500 font-bold top-[-14px] left-[-1px] rotate-[-28deg] text-4xl"
+          >
+            (
+          </span>
+        </span>
         others!
       </h2>
+
       <p class="text-gray-700 text-xl mt-4 leading-10">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem,
         commodi, porro nesciunt voluptatum aliquid fuga molestias explicabo

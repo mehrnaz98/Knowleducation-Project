@@ -1,15 +1,13 @@
 <template>
   <section class="flex">
-    <section
-      v-for="reason in reasons"
-      :key="reason.title"
-      class="w-2/5 flex mt-24"
-    >
-      <ReasonsCard
-        :title="reason.title"
-        :description="reason.description"
-        :image="reason.image"
-      />
+    <section class="w-2/5 mt-24 flex flex-col space-y-12">
+      <div v-for="reason in reasons" :key="reason.title">
+        <ReasonsCard
+          :title="reason.title"
+          :description="reason.description"
+          :image="reason.image"
+        />
+      </div>
     </section>
 
     <section class="w-3/5">Explanation</section>

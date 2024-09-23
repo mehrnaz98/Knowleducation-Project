@@ -33,7 +33,7 @@
         others!
       </h2>
 
-      <p class="text-gray-700 text-xl mt-4 leading-10">
+      <p class="text-gray-700 text-xl mt-5 leading-10">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem,
         commodi, porro nesciunt voluptatum aliquid fuga molestias explicabo
         pariatur accusantium ullam nobis, consequuntur aliquam laboriosam unde

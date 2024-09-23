@@ -19,4 +19,9 @@ export const useCoursesStore = defineStore("courses", () => {
   };
 
   fetchImages();
+
+  return {
+    images,
+    isLoading,
+  };
 });

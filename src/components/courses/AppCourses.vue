@@ -13,4 +13,5 @@
 
 <script setup lang="ts">
 import CoursesCard from "./CoursesCard.vue";
+import { useCoursesStore } from "@/stores/useCoursesStore";
 </script>

@@ -26,7 +26,7 @@ const courseStore = useCoursesStore();
 const defaultCourses = computed(() => {
   const defaultCards = Array(12).fill({
     image: "",
-    description: "Default description text.",
+    description: "",
   });
   return defaultCards.map((card, index) => ({
     image: courseStore.images[index] || card.image,

@@ -2,8 +2,7 @@ import { ref } from "vue";
 import { defineStore } from "pinia";
 
 export const useCoursesStore = defineStore("courses", () => {
-  const images = ref<string[]>([]);
-  const descriptions = ref<string[]>([]);
+  const courses = ref<{ image: string; description: string }[]>([]);
   const isLoading = ref(true);
 
   const fetchCourses = async () => {
@@ -11,10 +10,9 @@ export const useCoursesStore = defineStore("courses", () => {
       const response = await fetch("https://example.com/api/courses");
       const data = await response.json();
 
-      images.value = data.images || [];
-      descriptions.value = data.descriptions || [];
+      courses.value = data.courses || [];
     } catch (error) {
-      console.error("Error fetching images:", error);
+      console.error("Error fetching courses:", error);
     } finally {
       isLoading.value = false;
     }
@@ -23,8 +21,7 @@ export const useCoursesStore = defineStore("courses", () => {
   fetchCourses();
 
   return {
-    images,
-    descriptions,
+    courses,
     isLoading,
   };
 });

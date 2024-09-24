@@ -1,19 +1,42 @@
 <template>
   <section class="bg-gray-100">
     <h2>Need any help</h2>
-    <section class="flex bg-white w-[90%] border-black mx-20 mb-56 p-10">
+    <section
+      class="flex bg-yellow-400 w-[90%] border-black rounded-xl mx-20 mb-56 p-10"
+    >
       <section class="w-3/5">
         <form class="flex flex-col">
           <div>
             <label for="fullName">Full Name</label>
             <input type="text" id="firstName" />
+          <div class="flex">
+            <div class="mb-4 mr-8">
+              <label for="fullName">Full Name</label>
+              <input
+                type="text"
+                id="fullName"
+                class="border rounded py-2 px-5 w-full"
+              />
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" />
+            <div class="mb-4">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="border rounded py-2 px-5 w-full"
+              />
+            </div>
           </div>
 
-          <label for="message">Message</label>
-          <textarea id="message" row="5"></textarea>
+          <div class="mb-4">
+            <label for="message" class="block">Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              class="border rounded p-2 w-full"
+            ></textarea>
+          </div>
 
           <button
             class="w-[15%] bg-green-500 text-white h-10 rounded-full text-base font-normal px-6"

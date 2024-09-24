@@ -32,9 +32,7 @@
 
 <script setup lang="ts">
 defineProps({
-  image: {
-    type: String,
-    default: "",
-  },
+  image: String,
+  description: String,
 });
 </script>

@@ -27,7 +27,7 @@
           </div>
 
           <div class="mb-4">
-            <label for="message" class="block">Message</label>
+            <label for="message">Message</label>
             <textarea
               id="message"
               rows="5"

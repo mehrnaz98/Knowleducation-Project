@@ -23,7 +23,6 @@
               <input
                 type="email"
                 id="email"
-                class="border rounded py-2 px-5 w-full"
                 class="border rounded py-2 px-10 w-full mt-3"
               />
             </div>

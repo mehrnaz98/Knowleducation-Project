@@ -6,9 +6,6 @@
     >
       <section class="w-3/5">
         <form class="flex flex-col">
-          <div>
-            <label for="fullName">Full Name</label>
-            <input type="text" id="firstName" />
           <div class="flex">
             <div class="mb-4 mr-8">
               <label for="fullName">Full Name</label>

@@ -32,8 +32,8 @@
             <label for="message" class="text-xl text-gray-500">Message</label>
             <textarea
               id="message"
-              rows="5"
-              class="border rounded p-2 w-full"
+              rows="8"
+              class="border rounded p-2 w-full mt-3"
             ></textarea>
           </div>
 

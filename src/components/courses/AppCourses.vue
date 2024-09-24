@@ -28,9 +28,11 @@ const defaultCourses = computed(() => {
     image: "",
     description: "",
   });
+
+  // Map fetched courses to replace the default ones, but keep 12 cards in total
   return defaultCards.map((card, index) => ({
-    image: courseStore.images[index] || card.image,
-    description: courseStore.descriptions[index] || card.description,
+    image: courseStore.courses[index]?.image || card.image,
+    description: courseStore.courses[index]?.description || card.description,
   }));
 });
 </script>

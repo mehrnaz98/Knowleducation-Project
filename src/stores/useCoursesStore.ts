@@ -6,7 +6,7 @@ export const useCoursesStore = defineStore("courses", () => {
   const descriptions = ref<string[]>([]);
   const isLoading = ref(true);
 
-  const fetchImages = async () => {
+  const fetchCourses = async () => {
     try {
       const response = await fetch("https://example.com/api/courses");
       const data = await response.json();
@@ -20,7 +20,7 @@ export const useCoursesStore = defineStore("courses", () => {
     }
   };
 
-  fetchImages();
+  fetchCourses();
 
   return {
     images,

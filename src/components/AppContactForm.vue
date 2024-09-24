@@ -43,8 +43,14 @@
         </form>
       </section>
 
-      <section class="w-2/5">
-        <img src="" alt="" />
+      <section class="w-2/5 flex justify-center">
+        <div class="relative w-80 h-80 bg-[#FEF3C7] p-4 rounded-lg">
+          <img
+            src="../assets/phone-svgrepo-com.svg"
+            alt="Phone svg"
+            class="w-40 h-40 transform -scale-x-100 fill-orange-400"
+          />
+        </div>
       </section>
     </section>
   </section>

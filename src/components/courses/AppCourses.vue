@@ -6,12 +6,17 @@
     </section>
 
     <section class="grid grid-cols-3 gap-y-8 gap-x-16 mt-10">
-      <CoursesCard
-        v-for="(course, index) in defaultCourses"
-        :key="index"
-        :image="course.image"
-        :description="course.description"
-      />
+      <template v-if="courseStore.isLoading">
+        <SkeletonCard v-for="index in 12" :key="index" />
+      </template>
+      <template v-else>
+        <CoursesCard
+          v-for="(course, index) in defaultCourses"
+          :key="index"
+          :image="course.image"
+          :description="course.description"
+        />
+      </template>
     </section>
   </section>
 </template>

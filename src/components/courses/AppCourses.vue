@@ -7,9 +7,10 @@
 
     <section class="grid grid-cols-3 gap-y-8 gap-x-16 mt-10">
       <CoursesCard
-        v-for="(image, index) in defaultAndFetchedImages"
+        v-for="(course, index) in defaultCourses"
         :key="index"
-        :image="image"
+        :image="course.image"
+        :description="course.description"
       />
     </section>
   </section>

@@ -1,6 +1,5 @@
 <template>
-  <section class="bg-gray-100">
-    <h2>Need any help</h2>
+  <section class="bg-gray-100 flex flex-col items-center">
     <section
       class="flex bg-yellow-400 w-[90%] border-black rounded-xl mx-20 mb-56 p-10"
     >

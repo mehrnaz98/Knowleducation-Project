@@ -50,7 +50,7 @@
           <img
             src="../assets/phone-svgrepo-com.svg"
             alt="Phone svg"
-            class="w-40 h-40 transform -scale-x-100 fill-orange-400"
+            class="h-72 transform -scale-x-100"
           />
         </div>
       </section>

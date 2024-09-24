@@ -36,7 +36,7 @@
           </div>
 
           <button
-            class="w-[15%] bg-green-500 text-white h-10 rounded-full text-base font-normal px-6"
+            class="w-[29%] bg-green-500 text-white h-10 rounded-full text-base font-normal px-6"
           >
             Send
           </button>

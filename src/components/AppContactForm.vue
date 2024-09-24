@@ -8,7 +8,9 @@
         <form class="flex flex-col">
           <div class="flex">
             <div class="mb-4 mr-8">
-              <label for="fullName">Full Name</label>
+              <label for="fullName" class="text-xl text-gray-500">
+                Full Name
+              </label>
               <input
                 type="text"
                 id="fullName"
@@ -17,7 +19,7 @@
             </div>
 
             <div class="mb-4">
-              <label for="email">Email</label>
+              <label for="email" class="text-xl text-gray-500">Email</label>
               <input
                 type="email"
                 id="email"
@@ -27,7 +29,7 @@
           </div>
 
           <div class="mb-4">
-            <label for="message">Message</label>
+            <label for="message" class="text-xl text-gray-500">Message</label>
             <textarea
               id="message"
               rows="5"

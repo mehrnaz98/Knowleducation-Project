@@ -43,7 +43,8 @@
         </form>
       </section>
 
-      <section class="w-2/5 flex justify-center">
+      <section class="w-2/5 flex justify-end">
+        <div
           class="relative flex justify-center items-center w-[93%] h-[100%] bg-[#FEF3C7] p-4 rounded-lg"
         >
           <img

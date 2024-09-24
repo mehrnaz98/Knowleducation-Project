@@ -1,5 +1,6 @@
 <template>
   <section class="bg-gray-100 flex flex-col items-center">
+    <h2 class="w-[70%] text-left mt-20 mb-10 text-3xl">Need any help...?</h2>
     <section
       class="flex bg-yellow-400 w-[90%] border-black rounded-xl mx-20 mb-56 p-10"
     >

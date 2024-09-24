@@ -44,7 +44,8 @@
       </section>
 
       <section class="w-2/5 flex justify-center">
-        <div class="relative w-80 h-80 bg-[#FEF3C7] p-4 rounded-lg">
+          class="relative flex justify-center items-center w-[93%] h-[100%] bg-[#FEF3C7] p-4 rounded-lg"
+        >
           <img
             src="../assets/phone-svgrepo-com.svg"
             alt="Phone svg"

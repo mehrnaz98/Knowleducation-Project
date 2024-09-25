@@ -19,7 +19,7 @@
                 id="fullName"
                 v-model.trim="fullName"
                 :class="{ 'border-red-500': errors.fullName }"
-                class="border rounded-lg px-3 py-2 w-full mt-3 p-3 text-xl text-gray-500 focus:border-green-500 focus:outline-none focus:border-2"
+                class="border rounded-lg px-3 py-2 w-full mt-3 p-3 h-12 text-xl text-gray-500 focus:border-green-500 focus:outline-none focus:border-2"
                 @blur="errors.fullName = false"
               />
             </div>
@@ -34,7 +34,7 @@
                 id="email"
                 v-model.trim="email"
                 :class="{ 'border-red-500': errors.email }"
-                class="border rounded-lg px-3 py-2 w-full mt-3 p-3 text-xl text-gray-500 focus:border-green-500 focus:outline-none focus:border-2"
+                class="border rounded-lg px-3 py-2 w-full mt-3 p-3 h-12 text-xl text-gray-500 focus:border-green-500 focus:outline-none focus:border-2"
                 @blur="errors.email = false"
               />
             </div>
@@ -47,16 +47,16 @@
             >
             <textarea
               id="message"
-              rows="9"
+              rows="8"
               v-model.trim="message"
               :class="{ 'border-red-500': errors.message }"
-              class="border rounded-lg w-full mt-3 px-3 py-1 text-xl text-gray-500 focus:border-green-500 focus:outline-none focus:border-2"
+              class="border rounded-lg w-full mt-3 px-3 py-1 h-60 text-xl text-gray-500 focus:border-green-500 focus:outline-none focus:border-2"
               @blur="errors.message = false"
             ></textarea>
           </div>
 
           <button
-            class="w-[27%] h-12 bg-green-500 text-white rounded-full text-xl px-6 mt-2"
+            class="w-[27%] h-12 bg-green-500 text-white rounded-full text-xl px-6"
           >
             Send
           </button>

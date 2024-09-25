@@ -20,6 +20,7 @@
                 v-model="fullName"
                 :class="{ 'border-red-500': errors.fullName }"
                 class="border rounded py-2 w-full mt-3"
+                @blur="errors.fullName = false"
               />
             </div>
 
@@ -34,6 +35,7 @@
                 v-model="email"
                 :class="{ 'border-red-500': errors.email }"
                 class="border rounded py-2 w-full mt-3"
+                @blur="errors.email = false"
               />
             </div>
           </div>
@@ -49,6 +51,7 @@
               v-model="message"
               :class="{ 'border-red-500': errors.message }"
               class="border rounded p-2 w-full mt-3"
+              @blur="errors.message = false"
             ></textarea>
           </div>
 

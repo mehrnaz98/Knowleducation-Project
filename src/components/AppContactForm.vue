@@ -5,7 +5,7 @@
       class="flex bg-white w-[82%] h-[32rem] border-black rounded-xl mb-56 p-10"
     >
       <section class="w-3/5">
-        <form class="flex flex-col">
+        <form @submit.prevent="validateForm" class="flex flex-col">
           <div class="flex">
             <div class="mb-4 mr-8">
               <label for="fullName" class="text-xl text-gray-500">

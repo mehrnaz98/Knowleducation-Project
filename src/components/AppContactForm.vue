@@ -2,7 +2,7 @@
   <section class="bg-gray-100 flex flex-col items-center">
     <h2 class="w-[82%] text-left mt-16 mb-10 text-3xl">Need any help...?</h2>
     <section
-      class="flex bg-white w-[82%] h-[32rem] border-black rounded-xl mb-56 p-10"
+      class="flex bg-white w-[82%] h-[33rem] border-black rounded-xl mb-56 p-10"
     >
       <section class="w-3/5">
         <form @submit.prevent="validateForm" novalidate class="flex flex-col">

@@ -47,7 +47,7 @@
             >
             <textarea
               id="message"
-              rows="8"
+              rows="9"
               v-model.trim="message"
               :class="{ 'border-red-500': errors.message }"
               class="border rounded-lg p-2 w-full mt-3"

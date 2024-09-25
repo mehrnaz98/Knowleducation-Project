@@ -11,6 +11,9 @@
               <label for="fullName" class="text-xl text-gray-500">
                 Full Name
               </label>
+              <span v-if="errors.fullName" class="text-red-500 text-sm ml-2"
+                >This field cannot be empty</span
+              >
               <input
                 type="text"
                 id="fullName"
@@ -21,6 +24,9 @@
 
             <div class="mb-4">
               <label for="email" class="text-xl text-gray-500">Email</label>
+              <span v-if="errors.email" class="text-red-500 text-sm ml-2"
+                >Email address is incorrect</span
+              >
               <input
                 type="email"
                 id="email"
@@ -32,6 +38,9 @@
 
           <div class="mb-4">
             <label for="message" class="text-xl text-gray-500">Message</label>
+            <span v-if="errors.message" class="text-red-500 text-sm ml-2"
+              >This field cannot be empty</span
+            >
             <textarea
               id="message"
               rows="8"

@@ -14,7 +14,7 @@
         <img
           src="../assets/hand-raised-svgrepo-com.svg"
           alt="Hi Five svg"
-          class="w-9"
+          class="beating-hand w-9 hover:cursor-grab"
         />
       </div>
     </div>

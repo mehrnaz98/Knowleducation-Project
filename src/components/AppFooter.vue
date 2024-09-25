@@ -20,3 +20,25 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+.beating-hand {
+  transition: transform 0.3s ease-in-out;
+  animation: beat 0.5s infinite;
+  animation-play-state: paused;
+}
+
+.beating-hand:hover {
+  animation-play-state: running;
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+</style>

@@ -69,4 +69,10 @@ import { ref } from "vue";
 const fullName = ref<string>("");
 const email = ref<string>("");
 const message = ref<string>("");
+
+const errors = ref({
+  fullName: false,
+  email: false,
+  message: false,
+});
 </script>

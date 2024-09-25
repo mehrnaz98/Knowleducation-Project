@@ -17,7 +17,7 @@
               <input
                 type="text"
                 id="fullName"
-                v-model="fullName"
+                v-model.trim="fullName"
                 :class="{ 'border-red-500': errors.fullName }"
                 class="border rounded py-2 w-full mt-3"
                 @blur="errors.fullName = false"
@@ -32,7 +32,7 @@
               <input
                 type="email"
                 id="email"
-                v-model="email"
+                v-model.trim="email"
                 :class="{ 'border-red-500': errors.email }"
                 class="border rounded py-2 w-full mt-3"
                 @blur="errors.email = false"
@@ -48,7 +48,7 @@
             <textarea
               id="message"
               rows="8"
-              v-model="message"
+              v-model.trim="message"
               :class="{ 'border-red-500': errors.message }"
               class="border rounded p-2 w-full mt-3"
               @blur="errors.message = false"

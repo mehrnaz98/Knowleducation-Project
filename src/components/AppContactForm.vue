@@ -92,6 +92,10 @@ const validateForm = () => {
 
   if (!errors.value.fullName && !errors.value.email && !errors.value.message) {
     alert("Form submitted successfully!");
+
+    fullName.value = "";
+    email.value = "";
+    message.value = "";
   }
 };
 </script>

@@ -40,7 +40,7 @@
             </div>
           </div>
 
-          <div class="mb-4">
+          <div>
             <label for="message" class="text-xl text-gray-500">Message</label>
             <span v-if="errors.message" class="text-red-500 text-sm ml-2"
               >This field cannot be empty</span

@@ -62,4 +62,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+
+const fullName = ref<string>("");
+const email = ref<string>("");
+const message = ref<string>("");
 </script>

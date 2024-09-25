@@ -90,5 +90,8 @@ const validateForm = () => {
   errors.value.email = !email.value || !email.value.includes("@");
   errors.value.message = !message.value;
 
+  if (!errors.value.fullName && !errors.value.email && !errors.value.message) {
+    alert("Form submitted successfully!");
+  }
 };
 </script>

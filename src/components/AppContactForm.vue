@@ -7,7 +7,7 @@
       <section class="w-3/5">
         <form @submit.prevent="validateForm" class="flex flex-col">
           <div class="flex">
-            <div class="mb-4 mr-8">
+            <div class="mb-4 mr-8 w-full">
               <label for="fullName" class="text-xl text-gray-500">
                 Full Name
               </label>
@@ -22,7 +22,7 @@
               />
             </div>
 
-            <div class="mb-4">
+            <div class="mb-4 w-full">
               <label for="email" class="text-xl text-gray-500">Email</label>
               <span v-if="errors.email" class="text-red-500 text-sm ml-2"
                 >Email address is incorrect</span

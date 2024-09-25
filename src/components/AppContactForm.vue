@@ -50,7 +50,7 @@
               rows="9"
               v-model.trim="message"
               :class="{ 'border-red-500': errors.message }"
-              class="border rounded-lg p-2 w-full mt-3"
+              class="border rounded-lg w-full mt-3"
               @blur="errors.message = false"
             ></textarea>
           </div>

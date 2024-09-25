@@ -18,7 +18,7 @@
                 type="text"
                 id="fullName"
                 v-model="fullName"
-                class="border rounded py-2 px-10 w-full mt-3"
+                class="border rounded py-2 w-full mt-3"
               />
             </div>
 
@@ -31,7 +31,7 @@
                 type="email"
                 id="email"
                 v-model="email"
-                class="border rounded py-2 px-10 w-full mt-3"
+                class="border rounded py-2 w-full mt-3"
               />
             </div>
           </div>

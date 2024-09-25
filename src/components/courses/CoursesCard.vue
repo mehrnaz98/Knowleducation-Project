@@ -16,7 +16,9 @@
       v-else
       class="absolute bg-white w-[22rem] h-[22rem] top-[12rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-2xl flex justify-center items-center"
     >
-      <p class="uppercase text-6xl font-bold text-gray-400">image</p>
+      <p class="font-righteous uppercase text-6xl font-bold text-gray-400">
+        image
+      </p>
     </div>
 
     <div

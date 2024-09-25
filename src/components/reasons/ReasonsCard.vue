@@ -13,7 +13,7 @@
     </div>
 
     <div class="leading-10">
-      <h3 class="text-xl font-bold">{{ title }}</h3>
+      <h3 class="font-righteous text-xl">{{ title }}</h3>
       <p class="text-gray-600">{{ description }}</p>
     </div>
 

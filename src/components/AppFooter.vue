@@ -10,7 +10,7 @@
       <div
         class="absolute flex justify-center items-center inset-x-0 -mt-20 z-10"
       >
-        <p class="text-xl font-bold text-gray-300">Give me FIVE</p>
+        <p class="font-righteous text-xl text-gray-300">Give me FIVE</p>
         <img
           src="../assets/hand-raised-svgrepo-com.svg"
           alt="Hi Five svg"

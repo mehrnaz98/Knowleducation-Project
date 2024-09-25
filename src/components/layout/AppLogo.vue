@@ -7,7 +7,7 @@
     <div class="w-2/5"><BaseAnimatedEye :size="31" ref="eyeRef" /></div>
 
     <div class="w-3/5">
-      <div class="font-bold">Knowleducation</div>
+      <div class="font-righteous">Knowleducation</div>
     </div>
   </section>
 </template>

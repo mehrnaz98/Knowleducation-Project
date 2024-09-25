@@ -14,6 +14,7 @@
               <input
                 type="text"
                 id="fullName"
+                v-model="fullName"
                 class="border rounded py-2 px-10 w-full mt-3"
               />
             </div>
@@ -23,6 +24,7 @@
               <input
                 type="email"
                 id="email"
+                v-model="email"
                 class="border rounded py-2 px-10 w-full mt-3"
               />
             </div>
@@ -33,6 +35,7 @@
             <textarea
               id="message"
               rows="8"
+              v-model="message"
               class="border rounded p-2 w-full mt-3"
             ></textarea>
           </div>

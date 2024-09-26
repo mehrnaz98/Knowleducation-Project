@@ -1,7 +1,7 @@
 <template>
   <section class="bg-gray-50 flex flex-col items-center">
     <h2
-      class="font-righteous w-[82%] text-left mt-16 mb-10 text-4xl text-slate-600"
+      class="font-righteous w-[82%] text-left mt-16 mb-10 text-4.5xl text-slate-600"
     >
       Need any help...?
     </h2>

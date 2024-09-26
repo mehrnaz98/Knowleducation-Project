@@ -1,6 +1,8 @@
 <template>
-  <section class="bg-gray-100 text-slate-600 flex justify-center">
-    <section class="w-3/5 py-7 mx-32">
+  <section
+    class="bg-gray-100 text-slate-600 flex justify-center pt-44 border-t-8 border-emerald-400 -mt-[10.1rem]"
+  >
+    <section class="w-3/5 py-7 mr-32 ml-36">
       <h1 class="font-righteous text-[5rem]">
         Learn
         <span class="relative inline-block">

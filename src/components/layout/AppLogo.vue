@@ -5,7 +5,7 @@
     @mouseleave="resetPupil"
   >
     <div class="w-2/5 pl-6">
-      <BaseAnimatedEye :size="31" ref="eyeRef" />
+      <BaseAnimatedEye :size="33" :border-thickness="8" ref="eyeRef" />
     </div>
 
     <div class="w-3/5 -ml-4">

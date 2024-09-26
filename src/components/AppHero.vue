@@ -36,7 +36,7 @@
     </section>
 
     <section class="w-2/5">
-      <BaseAnimatedEye :size="340" />
+      <BaseAnimatedEye :size="410" :border-thickness="87" />
     </section>
   </section>
 </template>

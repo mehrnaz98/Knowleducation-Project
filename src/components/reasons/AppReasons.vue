@@ -1,6 +1,8 @@
 <template>
-  <section class="flex bg-gray-100">
-    <section class="w-2/5 mt-24 flex flex-col space-y-12">
+  <section
+    class="flex justify-center items-center bg-gray-100 w-screen h-screen"
+  >
+    <section class="w-2/5 flex flex-col space-y-10">
       <div v-for="reason in reasons" :key="reason.title">
         <ReasonsCard
           :title="reason.title"

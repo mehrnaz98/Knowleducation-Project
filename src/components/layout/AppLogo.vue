@@ -4,11 +4,11 @@
     @mousemove="handleMouseMove"
     @mouseleave="resetPupil"
   >
-    <div class="w-2/5 pl-6">
-      <BaseAnimatedEye :size="33" :border-thickness="8" ref="eyeRef" />
+    <div class="w-2/5 pl-9">
+      <BaseAnimatedEye :size="34.5" :border-thickness="9.5" ref="eyeRef" />
     </div>
 
-    <div class="w-3/5 -ml-4">
+    <div class="w-3/5">
       <div class="font-righteous font-semibold tracking-wider text-gray-600">
         Knowleducation
       </div>

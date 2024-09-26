@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-gray-50 shadow-lg shadow-gray-200 flex flex-col w-[24.5rem] h-[32rem] rounded-2xl"
+    class="relative bg-gray-50 shadow-lg shadow-gray-200 flex flex-col w-[24.5rem] h-[32rem] rounded-2xl transition-transform duration-100 ease-in-out hover:-translate-y-4 hover:cursor-pointer"
   >
     <div
       v-if="image"

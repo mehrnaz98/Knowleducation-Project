@@ -5,7 +5,7 @@
       <div class="ml-10 mt-6 w-[60rem] h-1 bg-gray-200"></div>
     </section>
 
-    <section class="grid grid-cols-3 gap-y-8 gap-x-5 mt-10">
+    <section class="grid grid-cols-3 gap-y-8 gap-x-11 mt-10">
       <template v-if="courseStore.isLoading">
         <SkeletonCard v-for="index in 12" :key="index" />
       </template>

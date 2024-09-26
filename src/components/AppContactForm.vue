@@ -5,9 +5,7 @@
     >
       Need any help...?
     </h2>
-    <section
-      class="flex bg-white w-[82%] h-[33rem] border-black rounded-xl mb-56 p-10"
-    >
+    <section class="flex bg-white w-[82%] h-[33rem] rounded-xl mb-56 p-10">
       <section class="w-3/5">
         <form @submit.prevent="validateForm" novalidate class="flex flex-col">
           <div class="flex">

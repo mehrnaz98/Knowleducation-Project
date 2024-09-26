@@ -1,11 +1,10 @@
 <template>
-  <header class="bg-gray-100 p-5 pt-16 border-t-8 border-emerald-400">
-    <div
-      class="bg-white shadow-lg shadow-gray-200 w-[51rem] h-[5.6rem] flex items-center rounded-full mx-20 py-4"
-    >
-      <section class="w-1/4">
-        <AppLogo />
-      </section>
+  <header
+    class="sticky top-0 z-10 mt-[4.5rem] mx-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[51rem] h-[5.6rem] flex items-center rounded-full"
+  >
+    <section class="w-1/4">
+      <AppLogo />
+    </section>
 
       <section class="w-3/4 text-base ml-20">
         <nav>

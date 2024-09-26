@@ -59,11 +59,9 @@
             ></textarea>
           </div>
 
-          <button
-            class="w-[27%] px-6 my-6 h-12 bg-emerald-400 text-white rounded-full text-xl"
+          <base-button :width="180" :height="48" :font-size="20"
+            >Send</base-button
           >
-            Send
-          </button>
         </form>
       </section>
 

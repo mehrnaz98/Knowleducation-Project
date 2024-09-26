@@ -15,11 +15,10 @@
             <li><a href="#">Courses</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Lorem</a></li>
-            <button
-              class="bg-emerald-400 text-white h-14 w-48 rounded-full text-lg font-normal px-11 py-2"
+
+            <base-button :width="185" :height="55" :font-size="20"
+              >Contact Us</base-button
             >
-              Contact Us
-            </button>
           </ul>
         </nav>
       </section>

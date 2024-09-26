@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-gray-300 flex flex-col w-[24rem] h-[32rem] rounded-2xl animate-pulse"
+    class="relative bg-gray-300 flex flex-col w-[24.5rem] h-[32rem] rounded-2xl animate-pulse"
   >
     <div
       class="absolute bg-gray-200 w-[22rem] h-[22rem] top-[12rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-2xl flex justify-center items-center"

@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-200 p-5 pt-16 border-t-8 border-green-500">
+  <header class="bg-gray-100 p-5 pt-16 border-t-8 border-emerald-400">
     <div
       class="bg-white shadow-sm w-[52rem] h-20 flex items-center border rounded-full mx-20 py-4"
     >
@@ -16,7 +16,7 @@
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Lorem</a></li>
             <button
-              class="bg-green-500 text-white h-14 w-48 rounded-full text-lg font-normal px-11 py-2"
+              class="bg-emerald-400 text-white h-14 w-48 rounded-full text-lg font-normal px-11 py-2"
             >
               Contact Us
             </button>

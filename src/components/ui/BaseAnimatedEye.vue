@@ -5,12 +5,12 @@
       height: size + 'px',
       borderWidth: borderThickness + 'px',
     }"
-    class="relative border-green-500 rounded-full flex items-center justify-center cursor-pointer"
+    class="relative border-emerald-400 rounded-full flex items-center justify-center cursor-pointer"
     @mousemove="movePupil"
     @mouseleave="resetPupil"
   >
     <div
-      class="absolute bg-black rounded-full transition-transform"
+      class="absolute bg-slate-600 rounded-full transition-transform"
       :style="{
         width: pupilSize + 'px',
         height: pupilSize + 'px',
@@ -18,7 +18,7 @@
       }"
     >
       <div
-        class="absolute w-4 h-4 bg-white rounded-full"
+        class="absolute w-4 h-4 bg-slate-500 rounded-full"
         :style="{
           width: reflectionSize + 'px',
           height: reflectionSize + 'px',

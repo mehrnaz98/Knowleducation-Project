@@ -3,7 +3,7 @@
     class="bg-white relative flex items-center ml-36 w-[23rem] h-[11rem] rounded-2xl p-4 shadow-md shadow-gray-200 group"
   >
     <div
-      class="bg-yellow-300 flex justify-center relative border rounded-full w-28 h-28 mx-6 my-5"
+      class="bg-yellow-100 flex justify-center relative border rounded-full w-28 h-28 mx-6 my-5"
     >
       <img
         :src="image"
@@ -13,8 +13,8 @@
     </div>
 
     <div class="leading-10">
-      <h3 class="font-righteous text-xl">{{ title }}</h3>
-      <p class="text-gray-600">{{ description }}</p>
+      <h3 class="font-righteous text-xl text-slate-600">{{ title }}</h3>
+      <p class="text-gray-400">{{ description }}</p>
     </div>
 
     <div

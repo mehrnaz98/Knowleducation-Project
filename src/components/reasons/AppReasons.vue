@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-center items-center bg-gray-100 h-screen">
+  <section class="flex justify-center items-center bg-gray-50 h-screen">
     <section class="w-2/5 flex flex-col space-y-10">
       <div v-for="reason in reasons" :key="reason.title">
         <ReasonsCard
@@ -12,20 +12,20 @@
     </section>
 
     <section class="w-3/5 pr-24 relative">
-      <h2 class="font-righteous text-4xl">
+      <h2 class="font-righteous text-4xl text-slate-600">
         Choose Knowleducation over
         <span class="relative inline-block">
           <span
-            class="absolute text-green-500 font-bold top-[-80px] left-[-10px] rotate-[-28deg] text-4xl"
+            class="absolute text-emerald-400 font-bold top-[-80px] left-[-10px] rotate-[-28deg] text-4xl"
             >ALL
           </span>
           <span
-            class="absolute text-green-500 font-bold top-[-14px] left-[-12px] rotate-[28deg] text-4xl"
+            class="absolute text-emerald-400 font-bold top-[-14px] left-[-12px] rotate-[28deg] text-4xl"
           >
             )
           </span>
           <span
-            class="absolute text-green-500 font-bold top-[-14px] left-[-1px] rotate-[-28deg] text-4xl"
+            class="absolute text-emerald-400 font-bold top-[-14px] left-[-1px] rotate-[-28deg] text-4xl"
           >
             (
           </span>
@@ -33,7 +33,7 @@
         others!
       </h2>
 
-      <p class="text-gray-700 text-xl mt-5 leading-10">
+      <p class="text-gray-400 text-xl mt-5 leading-10">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem,
         commodi, porro nesciunt voluptatum aliquid fuga molestias explicabo
         pariatur accusantium ullam nobis, consequuntur aliquam laboriosam unde

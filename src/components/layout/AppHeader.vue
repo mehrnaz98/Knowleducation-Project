@@ -28,4 +28,11 @@
 
 <script setup lang="ts">
 import AppLogo from "./AppLogo.vue";
+import BaseButton from "../ui/BaseButton.vue";
+
+const props = defineProps<{
+  width: number;
+  height: number;
+  font: number;
+}>();
 </script>

@@ -46,5 +46,6 @@
 </template>
 
 <script setup lang="ts">
+import BaseButton from "./ui/BaseButton.vue";
 import BaseAnimatedEye from "./ui/BaseAnimatedEye.vue";
 </script>

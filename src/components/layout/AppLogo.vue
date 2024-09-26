@@ -9,7 +9,7 @@
     </div>
 
     <div class="w-3/5 -ml-4">
-      <div class="font-righteous font-semibold tracking-wider">
+      <div class="font-righteous font-semibold tracking-wider text-gray-600">
         Knowleducation
       </div>
     </div>

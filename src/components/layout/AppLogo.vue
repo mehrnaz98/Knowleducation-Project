@@ -8,8 +8,10 @@
       <BaseAnimatedEye :size="31" ref="eyeRef" />
     </div>
 
-      <div class="font-righteous">Knowleducation</div>
     <div class="w-3/5 -ml-4">
+      <div class="font-righteous font-semibold tracking-wider">
+        Knowleducation
+      </div>
     </div>
   </section>
 </template>

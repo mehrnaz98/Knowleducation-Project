@@ -7,7 +7,7 @@
         <AppLogo />
       </section>
 
-      <section class="w-3/4 text-base">
+      <section class="w-3/4 text-base ml-20">
         <nav>
           <ul
             class="flex space-x-7 justify-center items-center text-md-custom font-semibold text-gray-400"

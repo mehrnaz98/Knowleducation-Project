@@ -6,14 +6,14 @@
       <AppLogo />
     </section>
 
-      <section class="w-3/4 text-base ml-20">
-        <nav>
-          <ul
-            class="flex space-x-7 justify-center items-center text-md-custom font-semibold text-gray-400"
-          >
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Lorem</a></li>
+    <section class="w-3/4 text-base ml-20">
+      <nav>
+        <ul
+          class="flex space-x-7 justify-center items-center text-md-custom font-semibold text-gray-400"
+        >
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Lorem</a></li>
 
             <div class="pl-4">
               <base-button :width="195" :height="55" :font-size="20">

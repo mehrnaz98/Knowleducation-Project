@@ -12,7 +12,7 @@
     </section>
 
     <section class="w-3/5 pr-24 relative">
-      <h2 class="font-righteous text-4xl mt-52">
+      <h2 class="font-righteous text-4xl">
         Choose Knowleducation over
         <span class="relative inline-block">
           <span

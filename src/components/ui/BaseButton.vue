@@ -10,3 +10,20 @@
     <slot></slot>
   </button>
 </template>
+
+<script setup lang="ts">
+defineProps({
+  width: {
+    type: Number,
+    default: 180,
+  },
+  height: {
+    type: Number,
+    default: 50,
+  },
+  fontSize: {
+    type: Number,
+    default: 20,
+  },
+});
+</script>

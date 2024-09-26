@@ -13,7 +13,7 @@
         Cases
       </h1>
 
-      <p class="text-lg mt-10 leading-10">
+      <p class="text-xl mt-4 text-gray-400 leading-10">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, officiis
         doloribus excepturi dolore officia aliquid error ipsum eos ea quam
         molestias quisquam natus, corrupti iusto suscipit tempore a. Mollitia

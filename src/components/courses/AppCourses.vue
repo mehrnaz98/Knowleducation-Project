@@ -1,7 +1,7 @@
 <template>
-  <section class="bg-gray-200 px-36 py-24">
+  <section class="bg-gray-100 px-36 py-24">
     <section class="flex">
-      <h2 class="font-righteous text-4xl">Our Courses</h2>
+      <h2 class="font-righteous text-slate-600 text-4xl">Our Courses</h2>
       <div class="ml-10 mt-6 w-[60rem] h-1 bg-gray-200"></div>
     </section>
 

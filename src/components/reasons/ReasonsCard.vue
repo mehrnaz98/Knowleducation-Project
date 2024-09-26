@@ -3,7 +3,7 @@
     class="bg-white relative flex items-center ml-36 w-[23rem] h-[11rem] rounded-2xl p-4 shadow-md shadow-gray-200 group"
   >
     <div
-      class="bg-yellow-100 flex justify-center relative rounded-full w-28 h-28 mx-6 my-5"
+      class="bg-yellow-200 flex justify-center relative rounded-full w-28 h-28 mx-6 my-5"
     >
       <img
         :src="image"

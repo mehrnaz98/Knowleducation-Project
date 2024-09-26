@@ -35,11 +35,11 @@ import { ref, defineProps, defineExpose } from "vue";
 
 const props = defineProps<{
   size: number;
+  borderThickness: number;
 }>();
 
 const pupilSize = props.size / 4;
 const reflectionSize = pupilSize / 4;
-const borderThickness = pupilSize / 1.28;
 
 const pupilX = ref<number>(0);
 const pupilY = ref<number>(0);

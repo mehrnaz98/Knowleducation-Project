@@ -35,8 +35,10 @@
       </div>
     </section>
 
-    <section class="w-2/5">
-      <BaseAnimatedEye :size="410" :border-thickness="87" />
+    <section class="w-2/5 relative">
+      <div class="absolute -inset-10">
+        <BaseAnimatedEye :size="420" :border-thickness="88" />
+      </div>
     </section>
   </section>
 </template>

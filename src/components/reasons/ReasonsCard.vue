@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-white flex items-center ml-36 w-[23rem] border rounded-lg p-4 shadow-md group"
+    class="bg-white flex items-center ml-36 w-[23rem] h-[11rem] rounded-2xl p-4 shadow-md group"
   >
     <div
       class="bg-yellow-300 flex justify-center relative border rounded-full w-28 h-28 mx-6 my-5"

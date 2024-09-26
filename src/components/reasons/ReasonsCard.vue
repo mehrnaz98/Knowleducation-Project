@@ -8,7 +8,7 @@
       <img
         :src="image"
         alt="Card Image"
-        class="h-32 object-cover rounded-t-lg absolute bottom-3 transition-transform duration-100 ease-in-out group-hover:rotate-[-12deg]"
+        class="w-14 absolute bottom-3 transition-transform duration-100 ease-in-out group-hover:rotate-[-12deg]"
       />
     </div>
 

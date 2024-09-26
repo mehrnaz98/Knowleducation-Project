@@ -48,4 +48,10 @@
 <script setup lang="ts">
 import BaseButton from "./ui/BaseButton.vue";
 import BaseAnimatedEye from "./ui/BaseAnimatedEye.vue";
+
+const props = defineProps<{
+  width: number;
+  height: number;
+  font: number;
+}>();
 </script>

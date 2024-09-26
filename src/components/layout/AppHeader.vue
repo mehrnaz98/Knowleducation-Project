@@ -16,7 +16,7 @@
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Lorem</a></li>
 
-            <base-button :width="185" :height="55" :font-size="20"
+            <base-button :width="195" :height="55" :font-size="20"
               >Contact Us</base-button
             >
           </ul>

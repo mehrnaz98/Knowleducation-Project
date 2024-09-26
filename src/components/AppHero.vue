@@ -6,7 +6,8 @@
         <span class="relative inline-block">
           EDGE
           <div
-            class="absolute left-[-23px] right-0 bottom-[-10px] h-28 mb-[-60px] bg-gradient-to-r from-red-400 via-yellow-400 to-emerald-400 w-[130%] [clip-path:polygon(0_45%,_100%_41%,_100%_56%,_0_52%)] rounded-full"
+            class="absolute left-[-23px] right-0 w-56 h-5 bg-gradient-to-r from-red-400 via-yellow-400 to-emerald-400 rounded-full"
+            style="clip-path: polygon(-50% 50%, 100% 0%, 100% 100%, 0% 50%)"
           ></div>
         </span>
         Cases

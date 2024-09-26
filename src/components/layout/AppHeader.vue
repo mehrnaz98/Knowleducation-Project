@@ -10,7 +10,7 @@
       <section class="w-3/4 text-base">
         <nav>
           <ul
-            class="flex space-x-9 justify-end items-center text-lg px-4 font-semibold text-gray-400"
+            class="flex space-x-7 justify-center items-center text-md-custom font-semibold text-gray-400"
           >
             <li><a href="#">Courses</a></li>
             <li><a href="#">Contact Us</a></li>

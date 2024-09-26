@@ -4,7 +4,7 @@
     @mousemove="handleMouseMove"
     @mouseleave="resetPupil"
   >
-    <div class="w-2/5">
+    <div class="w-2/5 pl-6">
       <BaseAnimatedEye :size="31" ref="eyeRef" />
     </div>
 

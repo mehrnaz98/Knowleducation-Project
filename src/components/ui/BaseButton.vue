@@ -7,5 +7,6 @@
       fontSize: fontSize + 'px',
     }"
   >
+    <slot></slot>
   </button>
 </template>

@@ -2,6 +2,38 @@
 
 Knowleducation (Knowledge + Education) is an online service that provides educational courses.
 
+## Tailwind Color Palette
+
+### White/Light Grays:
+
+- `#FFFFFF` → `white`
+- `#F8FAFC` → `gray-50`
+- `#F1F5F9` → `gray-100`
+- `#F1F1F1` → `gray-200`
+- `#E2E8F0` → `gray-300`
+
+### Mid Grays:
+
+- `#CBD5E1` → `gray-400`
+
+### Dark Grays/Slates:
+
+- `#64748B` → `slate-500`
+- `#475569` → `slate-600`
+- `#0F172A` → `slate-900`
+
+### Green:
+
+- `#34D399` → `emerald-400`
+
+### Yellow:
+
+- `#FEF3C7` → `yellow-200`
+
+### Red:
+
+- `#EF4444` → `red-500`
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).

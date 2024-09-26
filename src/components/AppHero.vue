@@ -25,7 +25,7 @@
         <input
           type="search"
           placeholder="What do you want to learn?"
-          class="bg-white text-lg shadow-sm w-full h-16 border rounded-full mr-52 mt-5 mb-10 py-4 pl- pr-24"
+          class="bg-white text-lg shadow-sm w-full h-16 border rounded-full mr-52 mt-5 mb-10 py-4 pl-5 pr-24"
         />
         <button
           class="absolute w-[15%] bg-green-500 text-white right-[29%] top-[41.5%] transform -translate-y-1/2 h-10 rounded-full text-base font-normal px-6"

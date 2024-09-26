@@ -1,7 +1,7 @@
 <template>
   <section class="bg-gray-200 text-gray-600 flex justify-center">
     <section class="w-3/5 py-7 mx-32">
-      <h1 class="font-righteous text-[5rem] mb-11">
+      <h1 class="font-righteous text-[5rem]">
         Learn
         <span class="relative inline-block">
           EDGE

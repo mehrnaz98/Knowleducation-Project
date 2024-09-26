@@ -5,6 +5,7 @@ export default {
     extend: {
       fontSize: {
         "4.5xl": "2.5rem",
+        "md-custom": "1.0625rem",
       },
     },
   },

@@ -18,9 +18,9 @@
     </div>
 
     <div
-      class="absolute transform translate-x-60 -translate-y-8 rotate-45 z-0 opacity-20"
+      class="absolute transform rotate-45 z-0 opacity-20 right-0 pr-4 pt-0 -mt-10"
     >
-      <p class="font-righteous text-6xl font-bold text-black">
+      <p class="font-righteous text-6xl font-semibold text-gray-400 text-right">
         {{ ordinalNumber }}
       </p>
     </div>

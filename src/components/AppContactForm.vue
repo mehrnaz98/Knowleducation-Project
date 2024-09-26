@@ -1,6 +1,8 @@
 <template>
   <section class="bg-gray-100 flex flex-col items-center">
-    <h2 class="font-righteous w-[82%] text-left mt-16 mb-10 text-3xl">
+    <h2
+      class="font-righteous w-[82%] text-left mt-16 mb-10 text-4xl text-gray-600"
+    >
       Need any help...?
     </h2>
     <section

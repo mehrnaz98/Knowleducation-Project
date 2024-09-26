@@ -38,7 +38,7 @@
     </section>
 
     <section class="w-2/5 relative">
-      <div class="absolute -top-14 -left-7">
+      <div class="absolute -top-14 -left-14">
         <BaseAnimatedEye :size="430" :border-thickness="90" />
       </div>
     </section>

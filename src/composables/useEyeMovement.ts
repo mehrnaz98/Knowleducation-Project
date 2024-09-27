@@ -30,4 +30,6 @@ export function useEyeMovement(size: number, pupilSize: number) {
     pupilX.value = targetX;
     pupilY.value = targetY;
   };
+  const animatePupil = () => {
+  };
 }

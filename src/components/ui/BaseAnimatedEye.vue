@@ -47,4 +47,5 @@ const { pupilX, pupilY, movePupil, resetPupil } = useEyeMovement(
   pupilSize
 );
 
+defineExpose({ movePupil, resetPupil });
 </script>

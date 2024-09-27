@@ -35,4 +35,5 @@ const props = defineProps<{
   height: number;
   font: number;
 }>();
+const isExpanded = ref(false);
 </script>

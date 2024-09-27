@@ -24,14 +24,12 @@ const eyeRef = ref<InstanceType<typeof BaseAnimatedEye> | null>(null);
 
 const handleMouseMove = (event: MouseEvent) => {
   if (eyeRef.value) {
-    // Call the movePupil method in the BaseAnimatedEye component
     eyeRef.value.movePupil(event);
   }
 };
 
 const resetPupil = () => {
   if (eyeRef.value) {
-    // Call the resetPupil method in the BaseAnimatedEye component
     eyeRef.value.resetPupil();
   }
 };

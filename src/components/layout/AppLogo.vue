@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex justify-start items-center text-xl w-48"
+    class="flex justify-start items-center text-xl w-48 h-[5.6rem]"
     @mousemove="handleMouseMove"
     @mouseleave="resetPupil"
   >

@@ -35,8 +35,8 @@ export function useEyeMovement(size: number, pupilSize: number) {
     const distanceX = targetX - pupilX.value;
     const distanceY = targetY - pupilY.value;
 
-    pupilX.value += distanceX * 0.1;
-    pupilY.value += distanceY * 0.1;
+    pupilX.value += distanceX * 0.2;
+    pupilY.value += distanceY * 0.2;
 
     if (Math.abs(distanceX) > 0.1 || Math.abs(distanceY) > 0.1) {
       animationFrameId = requestAnimationFrame(animatePupil);

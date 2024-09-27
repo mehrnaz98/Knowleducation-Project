@@ -25,6 +25,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from "vue";
 import AppLogo from "./AppLogo.vue";
 import BaseButton from "../ui/BaseButton.vue";
 

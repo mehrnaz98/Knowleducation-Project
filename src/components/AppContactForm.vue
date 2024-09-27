@@ -57,9 +57,9 @@
             ></textarea>
           </div>
 
-          <base-button :width="180" :height="48" :font-size="20"
-            >Send</base-button
-          >
+          <base-button :width="195" :height="55" :font-size="20">
+            Send
+          </base-button>
         </form>
       </section>
 

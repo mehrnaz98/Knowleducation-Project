@@ -20,12 +20,12 @@
             >ALL
           </span>
           <span
-            class="absolute text-emerald-400 font-bold top-[-14px] left-[-12px] rotate-[28deg] text-4xl"
+            class="absolute text-emerald-400 font-sans font-semibold top-[-14px] left-[-13px] rotate-[28deg] text-4xl"
           >
             )
           </span>
           <span
-            class="absolute text-emerald-400 font-bold top-[-14px] left-[-1px] rotate-[-28deg] text-4xl"
+            class="absolute text-emerald-400 font-sans font-semibold top-[-14px] rotate-[-28deg] text-4xl"
           >
             (
           </span>
@@ -40,7 +40,9 @@
         reiciendis doloribus non eveniet iste beatae et mollitia esse voluptas
         nostrum. Fugiat quasi, rem, nisi error dignissimos architecto animi
         vitae sunt laboriosam quis voluptatibus, labore quam? Nihil blanditiis
-        ea porro, incidunt magni sed corporis ratione?
+        ea porro, incidunt magni sed corporis ratione? Lorem ipsum dolo aliquid
+        fuga molestias explicabo pariatur accusantium ullam nobis, consequuntur
+        aliquam laboriosam unde reiciendis doloribus non eveniet.
       </p>
     </section>
   </section>

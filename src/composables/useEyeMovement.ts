@@ -25,5 +25,7 @@ export function useEyeMovement(size: number, pupilSize: number) {
     const angle = Math.atan2(deltaY, deltaX);
     targetX = distance * Math.cos(angle);
     targetY = distance * Math.sin(angle);
+    pupilX.value = targetX;
+    pupilY.value = targetY;
   };
 }

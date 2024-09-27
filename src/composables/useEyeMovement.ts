@@ -9,5 +9,6 @@ export function useEyeMovement(size: number, pupilSize: number) {
 
   const movePupil = (event: MouseEvent) => {
     const { clientX, clientY } = event;
+    const target = event.currentTarget as HTMLElement;
   };
 }

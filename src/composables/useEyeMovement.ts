@@ -22,5 +22,6 @@ export function useEyeMovement(size: number, pupilSize: number) {
       size / 2 - pupilSize / 2 - pupilSize,
       Math.sqrt(deltaX ** 2 + deltaY ** 2)
     );
+    const angle = Math.atan2(deltaY, deltaX);
   };
 }

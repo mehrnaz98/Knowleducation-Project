@@ -27,8 +27,9 @@ export function useEyeMovement(size: number, pupilSize: number) {
     targetX = distance * Math.cos(angle);
     targetY = distance * Math.sin(angle);
 
-    pupilX.value = targetX;
-    pupilY.value = targetY;
+    if (!animationFrameId) {
+      animatePupil();
+    }
   };
 
   const animatePupil = () => {

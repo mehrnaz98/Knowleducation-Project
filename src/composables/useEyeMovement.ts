@@ -30,8 +30,10 @@ export function useEyeMovement(size: number, pupilSize: number) {
     pupilX.value = targetX;
     pupilY.value = targetY;
   };
+
   const animatePupil = () => {
     const distanceX = targetX - pupilX.value;
     const distanceY = targetY - pupilY.value;
+
   };
 }

@@ -35,5 +35,8 @@ export function useEyeMovement(size: number, pupilSize: number) {
     const distanceX = targetX - pupilX.value;
     const distanceY = targetY - pupilY.value;
 
+    pupilX.value += distanceX * 0.1;
+    pupilY.value += distanceY * 0.1;
+
   };
 }

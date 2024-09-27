@@ -36,4 +36,7 @@ const props = defineProps<{
   font: number;
 }>();
 const isExpanded = ref(false);
+const headerClass = ref(
+  "sticky top-0 z-10 mt-[4.5rem] mx-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[51rem] h-[5.6rem] flex items-center rounded-full"
+);
 </script>

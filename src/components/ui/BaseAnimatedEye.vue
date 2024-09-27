@@ -42,5 +42,9 @@ const props = defineProps<{
 const pupilSize = props.size / 4;
 const reflectionSize = pupilSize / 4;
 
+const { pupilX, pupilY, movePupil, resetPupil } = useEyeMovement(
+  props.size,
+  pupilSize
+);
 
 </script>

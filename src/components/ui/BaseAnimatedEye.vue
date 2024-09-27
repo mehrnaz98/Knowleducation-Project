@@ -32,6 +32,7 @@
 
 <script setup lang="ts">
 import { ref, defineProps, defineExpose } from "vue";
+import { useEyeMovement } from "@/composables/useEyeMovement";
 
 const props = defineProps<{
   size: number;

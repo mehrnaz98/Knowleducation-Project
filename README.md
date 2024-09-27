@@ -2,6 +2,10 @@
 
 Knowleducation (Knowledge + Education) is an online service that provides educational courses.
 
+## Live Demo
+
+You can view the live version of this project here: [View on Netlify](https://lucky-tulumba-594def.netlify.app/)
+
 ## Tailwind Color Palette
 
 ### White/Light Grays:

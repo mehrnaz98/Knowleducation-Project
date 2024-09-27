@@ -4,4 +4,5 @@ export function useEyeMovement(size: number, pupilSize: number) {
   const pupilY = ref<number>(0);
   let targetX = 0;
   let targetY = 0;
+  let animationFrameId: number | null = null;
 }

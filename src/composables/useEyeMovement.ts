@@ -48,4 +48,11 @@ export function useEyeMovement(size: number, pupilSize: number) {
     }
   };
 
+  const resetPupil = () => {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+    }
+    animatePupil();
+  };
+
 }

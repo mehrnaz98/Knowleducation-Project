@@ -50,5 +50,6 @@ const handleScroll = () => {
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);
 });
+onUnmounted(() => {
 });
 </script>

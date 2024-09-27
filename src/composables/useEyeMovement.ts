@@ -47,4 +47,5 @@ export function useEyeMovement(size: number, pupilSize: number) {
       animationFrameId = null;
     }
   };
+
 }

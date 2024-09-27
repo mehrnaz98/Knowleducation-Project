@@ -7,4 +7,6 @@ export function useEyeMovement(size: number, pupilSize: number) {
   let targetY = 0;
   let animationFrameId: number | null = null;
 
+  const movePupil = (event: MouseEvent) => {
+  };
 }

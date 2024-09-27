@@ -55,4 +55,9 @@ export function useEyeMovement(size: number, pupilSize: number) {
     animatePupil();
   };
 
+  onBeforeUnmount(() => {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+    }
+  });
 }

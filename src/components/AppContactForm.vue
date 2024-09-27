@@ -82,12 +82,6 @@
 import BaseButton from "./ui/BaseButton.vue";
 import { ref } from "vue";
 
-const props = defineProps<{
-  width: number;
-  height: number;
-  fontSize: number;
-}>();
-
 const fullName = ref<string>("");
 const email = ref<string>("");
 const message = ref<string>("");

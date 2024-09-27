@@ -41,6 +41,9 @@ const handleScroll = () => {
   if (window.scrollY > 650) {
     headerClass.value =
       "sticky top-0 z-10 mt-[4.5rem] ml-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[87%] h-[5.6rem] flex items-center rounded-full";
+    rightSectionClass.value =
+      "w-3/4 flex justify-center items-center mr-[10rem] text-md-custom font-semibold text-gray-400";
+    buttonClass.value = "relative left-[21.5rem]";
   } else {
     headerClass.value =
       "sticky top-0 z-10 mt-[4.5rem] ml-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[54%] h-[5.6rem] flex items-center justify-center rounded-full";

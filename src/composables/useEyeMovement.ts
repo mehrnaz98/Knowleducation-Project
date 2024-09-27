@@ -60,4 +60,11 @@ export function useEyeMovement(size: number, pupilSize: number) {
       cancelAnimationFrame(animationFrameId);
     }
   });
+
+  return {
+    pupilX,
+    pupilY,
+    movePupil,
+    resetPupil,
+  };
 }

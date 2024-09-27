@@ -38,6 +38,7 @@ const isExpanded = ref(false);
 const headerClass = ref(
   "sticky top-0 z-10 mt-[4.5rem] mx-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[51rem] h-[5.6rem] flex items-center rounded-full"
 );
+
 const handleScroll = () => {
   if (window.scrollY > 650) {
     headerClass.value =
@@ -47,9 +48,11 @@ const handleScroll = () => {
       "sticky top-0 z-10 mt-[4.5rem] mx-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[51rem] h-[5.6rem] flex items-center justify-center rounded-full";
   }
 };
+
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);
 });
+
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });

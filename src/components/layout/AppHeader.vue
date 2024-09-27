@@ -47,6 +47,9 @@ const handleScroll = () => {
   } else {
     headerClass.value =
       "sticky top-0 z-10 mt-[4.5rem] ml-[6.5rem] bg-white shadow-lg shadow-gray-200 w-[54%] h-[5.6rem] flex items-center justify-center rounded-full";
+    rightSectionClass.value =
+      "w-3/4 flex justify-center items-center text-md-custom font-semibold text-gray-400";
+    buttonClass.value = "relative left-14";
   }
 };
 

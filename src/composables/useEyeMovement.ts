@@ -38,5 +38,13 @@ export function useEyeMovement(size: number, pupilSize: number) {
     pupilX.value += distanceX * 0.1;
     pupilY.value += distanceY * 0.1;
 
+    if (Math.abs(distanceX) > 0.1 || Math.abs(distanceY) > 0.1) {
+      animationFrameId = requestAnimationFrame(animatePupil);
+    } else {
+      pupilX.value = targetX;
+      pupilY.value = targetY;
+      cancelAnimationFrame(animationFrameId!);
+      animationFrameId = null;
+    }
   };
 }

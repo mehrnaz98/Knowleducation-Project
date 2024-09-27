@@ -18,5 +18,9 @@ export function useEyeMovement(size: number, pupilSize: number) {
     const deltaX = clientX - centerX;
     const deltaY = clientY - centerY;
 
+    const distance = Math.min(
+      size / 2 - pupilSize / 2 - pupilSize,
+      Math.sqrt(deltaX ** 2 + deltaY ** 2)
+    );
   };
 }

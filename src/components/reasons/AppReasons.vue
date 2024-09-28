@@ -55,19 +55,19 @@ const reasons = [
   {
     title: "Zeroth reason",
     description: "Lorem Ipsum 0th",
-    image: "../../assets/img/hand-0.png",
+    image: new URL("@/assets/img/hand-0.png", import.meta.url).href,
     ordinalNumber: "0th",
   },
   {
     title: "First reason",
     description: "Lorem Ipsum 1st",
-    image: "../../assets/img/hand-1.png",
+    image: new URL("@/assets/img/hand-1.png", import.meta.url).href,
     ordinalNumber: "1st",
   },
   {
     title: "Second reason",
     description: "Lorem Ipsum 2nd",
-    image: "../../assets/img/hand-2.png",
+    image: new URL("@/assets/img/hand-2.png", import.meta.url).href,
     ordinalNumber: "2nd",
   },
 ];

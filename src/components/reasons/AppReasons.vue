@@ -16,11 +16,11 @@
         Choose Knowleducation over
         <span class="relative inline-block">
           <span
-            class="absolute text-emerald-400 font-bold top-[-80px] left-[-10px] rotate-[-28deg] text-4xl"
+            class="absolute text-emerald-400 top-[-81px] left-[-10px] rotate-[-28deg] text-4.5xl"
             >ALL
           </span>
           <span
-            class="absolute text-emerald-400 font-sans font-semibold top-[-14px] left-[-13px] rotate-[28deg] text-4xl"
+            class="absolute text-emerald-400 font-sans font-semibold top-[-14px] left-[-11px] rotate-[28deg] text-4xl"
           >
             )
           </span>

@@ -23,7 +23,7 @@
                 id="fullName"
                 v-model.trim="fullName"
                 :class="{ 'border-red-500': errors.fullName }"
-                class="border rounded-lg px-3 py-2 w-full mt-3 p-3 h-12 text-xl text-gray-400 focus:border-emerald-400 focus:outline-none focus:border-2"
+                class="border rounded-lg px-3 py-2 w-full mt-2 p-3 h-12 text-xl text-gray-400 focus:border-emerald-400 focus:outline-none focus:border-2"
                 @blur="errors.fullName = false"
               />
             </div>
@@ -38,7 +38,7 @@
                 id="email"
                 v-model.trim="email"
                 :class="{ 'border-red-500': errors.email }"
-                class="border rounded-lg px-3 py-2 w-full mt-3 p-3 h-12 text-xl text-gray-400 focus:border-emerald-400 focus:outline-none focus:border-2"
+                class="border rounded-lg px-3 py-2 w-full mt-2 p-3 h-12 text-xl text-gray-400 focus:border-emerald-400 focus:outline-none focus:border-2"
                 @blur="errors.email = false"
               />
             </div>
@@ -54,7 +54,7 @@
               rows="8"
               v-model.trim="message"
               :class="{ 'border-red-500': errors.message }"
-              class="border rounded-lg w-full mt-3 mb-6 px-3 py-1 h-56 text-xl text-gray-400 focus:border-emerald-400 focus:outline-none focus:border-2"
+              class="border rounded-lg w-full mt-2 mb-6 px-3 py-1 h-56 text-xl text-gray-400 focus:border-emerald-400 focus:outline-none focus:border-2"
               @blur="errors.message = false"
             ></textarea>
           </div>
@@ -67,7 +67,7 @@
 
       <section class="w-2/5 flex justify-end">
         <div
-          class="relative flex justify-center items-center w-[93%] h-[100%] bg-yellow-200 p-4 rounded-lg"
+          class="relative flex justify-center items-center w-[93%] h-[100%] bg-amber-100 p-4 rounded-lg"
         >
           <img
             src="../assets/phone-svgrepo-com.svg"

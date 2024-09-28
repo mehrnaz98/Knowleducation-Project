@@ -30,9 +30,9 @@ You can view the live version of this project here: [View on Netlify](https://lu
 
 - `#34D399` → `emerald-400`
 
-### Yellow:
+### Amber:
 
-- `#FEF3C7` → `yellow-200`
+- `#FEF3C7` → `amber-200`
 
 ### Red:
 
